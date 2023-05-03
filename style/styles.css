@@ -1,5 +1,6 @@
 body {
   font-family: "Work Sans", sans-serif;
+  visibility: hidden;
 }
 .container {
   max-width: 1140px;
@@ -165,6 +166,10 @@ body {
   position: absolute;
   top: 260px;
   left: 0;
+}
+.customers__content-img {
+  width: 88px;
+  height: 166px;
 }
 .customers__content {
   max-width: 462px;
@@ -456,16 +461,16 @@ body {
   stroke-linecap: round;
 }
 .understand-grid__item1 {
-  background-image: url(../img/grid2/Item1.png);
+  background-image: url(../img/grid2/Item1.webp);
 }
 .understand-grid__item2 {
-  background-image: url(../img/grid2/Item2.png);
+  background-image: url(../img/grid2/Item2.webp);
 }
 .understand-grid__item3 {
-  background-image: url(../img/grid2/Item3.png);
+  background-image: url(../img/grid2/Item3.webp);
 }
 .understand-grid__item4 {
-  background-image: url(../img/grid2/Item4.png);
+  background-image: url(../img/grid2/Item4.webp);
 }
 .understand-grid-text {
   font-size: 22px;
@@ -826,7 +831,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 7;
-  background: url(../img/modal-BG/modal-bg.jpg);
+  background: url(../img/modal-BG/modal-bg.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
